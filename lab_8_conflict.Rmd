@@ -12,6 +12,6 @@ library(tidyverse)
 
 ```{r}
 ggplot(data = storms, aes(x = pressure, y = wind)) + 
-  scale_fill_gradient(low = "black", high = "magenta")
+  scale_fill_gradient(low = "black", high = "magenta") + theme_minimal()
 ```
 
